@@ -1,0 +1,70 @@
+﻿<resources>
+    <string name="app_name">Graph</string>
+    <string name="name">My Maths</string>
+    <string name="func">Введите функцию</string>
+    <string name="draw">Начертить</string>
+    <string name="sum">Интегрировать</string>
+    <string name="gran">Введите нижний предел</string>
+    <string name="gran2">Введите верхний предел</string>
+    <string name="decide">Расчёт</string>
+    <string name="action_settings">Справка</string>
+    <string name="avtor">О приложении</string>
+    <string name="ref1">Открывает панель управления</string>
+    <string name="ref2">Закрывает панель управления</string>
+    <string name="ref3">Подтверждает ввод функции</string>
+    <string name="ref4">Стирает предыдущий график</string>
+    <string name="ref5">Меняют режимы</string>
+    <string name="text">
+       !!! Справка !!!\n
+        Пример ввода функции: \n
+         y = (sin(x) + cos(pi/4))^pi; \n \n
+
+    Поддерживаемые функции: \n
+    1. \t + ; \n
+    2. \t - ; \n
+    3.\t * ; \n
+    4.\t / ; \n
+    5. \t ^ ; \n
+    6. \t sin(x); \n
+    7. \t cos(x); \n
+    8. \t tg(x); \n
+    9. \t ctg(x); \n
+    10. \t sqrt(x) - корень;\n
+    11. \t abs(x) или |n| - модуль; \n
+    12. \t arcsin(x); \n
+    13. \t arccos(x); \n
+    14. \t arctg(x); \n \n
+
+    Поддерживаемые константы: \n
+     1. \t pi - число Пи, pi ≈ 3.141592653589793 \n
+     2. \t e - число Эйлера, e ≈ 2.718281828459045; \n \n
+
+    Примечание:\n
+        \t \t \t Если вы хотите умножить степенную функцию на некоторое число или другую функцию, запишите функцию в таком виде: \n
+        y = k*(x^n); \n \n </string>
+    <string name="title_activity_app_bar_activity">app_bar_activity</string>
+    <string name="about"> Приложение График поможет при построении графиков функций
+        и подсчету определенного интеграла.\n \n
+
+        Первым делом нужно ввести функцию \n (см. Справку)\n \n
+
+        Если выбрать режим Начертить, то начертится график, на котором можно будет точно рассмотреть
+        все координаты данной функции. Здесь можно масштабировать график за счет изменения положения ползунка в верхней части экрана.
+        Если нажать на стрелку вверх, то откроется панель для ввода новой функции. Список всех функций можно посмотреть в левом верхнем углу экрана.
+        Так же есть два режима: смещение графика и определение координат точки по касанию. Чтобы узнать какие кнопки за что отвечают, следует посмотреть справку.\n\n
+        В режиме Интегрировать, рассматривается геометрическая модель определенного интеграла,
+        а также предоставлена возможность его расчета на указаном промежутке\n \n
+
+        Разработчик: Логинов Аркадий при поддержке IT School Samsung. \n
+    </string>
+    <string name="load">Идёт загрузка..\..</string>
+    <string name="analiz">Анализ данных..\..</string>
+    <string name="y">y =</string>
+    <string name="tchk">Слишком много точек</string>
+    <string name="list">↓↓↓Список функций↓↓↓</string>
+    <string name="progress">Прогресс: </string>
+    <string name="otvet">Ответ: </string>
+    <string name="newfunc">Новая функция</string>
+    <string name="close">Закрыть</string>
+    <string name="add">Добавить</string>
+</resources>

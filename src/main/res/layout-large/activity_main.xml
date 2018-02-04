@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context="com.example.user.mygrafik.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/draw"
+            android:drawableStart="@drawable/drawlarge"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:text="@string/draw"
+            android:textSize="30sp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/integral"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/newintlarge"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:text="@string/sum"
+            android:textSize="30sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ref"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/questlarge"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:text="@string/action_settings"
+            android:textSize="30sp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/listnewlarge"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="@string/avtor"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
