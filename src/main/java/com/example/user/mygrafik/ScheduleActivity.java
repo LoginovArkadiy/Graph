@@ -136,7 +136,7 @@ public class ScheduleActivity extends AppCompatActivity {
             TextView tw1 = new TextView(ScheduleActivity.this);
             LinearLayout.LayoutParams tw1params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
             tw1.setLayoutParams(tw1params);
-            tw1.setText((n + 1) + ". y = " + s + "  y'= " + derivative.der);
+            tw1.setText((n + 1) + ". y = " + s);
             tw1.setTextColor(myFunction.cl);
             tw1.setTextSize(thread.mas0 * 0.67f);
             twlistFunc.setTextSize(thread.mas0 * 0.67f);
